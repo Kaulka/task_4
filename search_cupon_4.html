@@ -22,18 +22,8 @@
 	<td>Search</td>
 </tr>
 <tr>
-	<td>waitForPageToLoad</td>
-	<td>3000</td>
-	<td></td>
-</tr>
-<tr>
 	<td>waitForElementNotPresent</td>
 	<td>xpath=//*[@class='table-responsive']/table/tbody/tr[2]</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>xpath=//a[contains(@class,'index-delete')]</td>
 	<td></td>
 </tr>
 <tr>
@@ -43,6 +33,21 @@
 </tr>
 <tr>
 	<td>waitForElementPresent</td>
+	<td>xpath=//a[contains(@class,'index-delete')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=//a[contains(@class,'index-delete')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h2</td>
+	<td>exact:Are you sure you want to delete?</td>
+</tr>
+<tr>
+	<td>waitForVisible</td>
 	<td>xpath=//div[contains(@class,'showSweetAlert')]</td>
 	<td></td>
 </tr>
